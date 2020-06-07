@@ -1,3 +1,6 @@
+-- Nandland tutorial 1
+-- Joey Casabar 07Jun2020
+
 library ieee;
 use ieee.std_logic_1164.all;
 
