@@ -25,7 +25,7 @@ architecture RTL of Clocked_Logic_Intro is
           r_Switch_1 <= i_Switch_1;
 
           if i_Switch_1 = '0' and r_Switch_1 = '1' then
-            r_LED_1 <= not r o_LED_1;
+            r_LED_1 <= not r_LED_1;
           end if;
         end if;
       end process p_Register;
