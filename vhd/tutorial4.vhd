@@ -24,7 +24,7 @@ architecture RTL of Debounce_Project_Top is
       port map (
         i_Clk => i_Clk,
         i_Switch => i_Switch_1,
-        o_Switch = w_Switch_1
+        o_Switch => w_Switch_1
         );
 
     p_Register : process (i_Clk) is
