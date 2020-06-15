@@ -55,7 +55,7 @@ architecture RTL of Seven_Segment_Test is
 
       o_LED_1 <= i_Switch_1;
 
-      counter_i <= std_logic_vector(to_unsigned(r_counter, r_counter'length));
+      counter_i <= std_logic_vector(to_unsigned(r_counter, counter_i'length));
 
       Segment_Inst : entity work.Segment_Decoder
       port map (
