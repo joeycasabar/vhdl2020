@@ -44,7 +44,7 @@ architecture RTL of Seven_Segment_Test is
 
           if (w_Switch_1 = '0' and r_Switch_1) = '1' then
             if (r_counter = 15) then
-              r_counter = 0;
+              r_counter <= 0;
             else
               r_counter <= r_counter + 1;
             end if;
