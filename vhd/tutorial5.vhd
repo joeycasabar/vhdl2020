@@ -43,7 +43,7 @@ architecture RTL of Seven_Segment_Test is
         if rising_edge(i_Clk) then
           r_Switch_1 <= w_Switch_1;
 
-          if (w_Switch_1 = '0' and r_Switch_1) = '1' then
+          if (w_Switch_1 = '0' and r_Switch_1 = '1') then
             if (r_counter = 15) then
               r_counter <= 0;
             else
