@@ -67,6 +67,6 @@ architecture RTL of Seven_Segment_Test is
         o_Segment_E => o_Segment1_E,
         o_Segment_F => o_Segment1_F,
         o_Segment_G => o_Segment1_G
-      )
+      );
 
     end architecture RTL;
